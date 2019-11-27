@@ -4,7 +4,7 @@ const Commande = "!commande"
 module.exports.run = (clientDiscord, message, args) => {
     const str = message.content.substring(Commande.length).trim();
     const exampleEmbed = new Discord.RichEmbed()
-    .setColor('#0099ff')
+    .setColor('#8FCF3C')
 	.setAuthor('Commande', 'http://www.belstaffjacketsoutlet.co.uk/wp-content/uploads/2019/09/cropped-discordies1.png')
 	.setDescription(message.author + " à commandé " + str + " !Tu seras notifié dés que ta commande sera prête 😉")
 	.setThumbnail('http://www.belstaffjacketsoutlet.co.uk/wp-content/uploads/2019/09/cropped-discordies1.png')
