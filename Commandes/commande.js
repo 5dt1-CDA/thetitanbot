@@ -6,7 +6,7 @@ module.exports.run = (clientDiscord, message, args) => {
     const exampleEmbed = new Discord.RichEmbed()
     .setColor('#0099ff')
 	.setAuthor('Commande', 'http://www.belstaffjacketsoutlet.co.uk/wp-content/uploads/2019/09/cropped-discordies1.png')
-	.setDescription(message.author.tag + " à commandé " + str + " !Tu seras notifié dés que ta commande sera prête 😉")
+	.setDescription(message.author + " à commandé " + str + " !Tu seras notifié dés que ta commande sera prête 😉")
 	.setThumbnail('http://www.belstaffjacketsoutlet.co.uk/wp-content/uploads/2019/09/cropped-discordies1.png')
 	.addBlankField()
 	.setTimestamp()
